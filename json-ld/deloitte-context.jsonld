@@ -1,0 +1,70 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "deloitte": "https://api-evangelist.com/vocab/deloitte#",
+    "schema": "https://schema.org/",
+    "org": "http://www.w3.org/ns/org#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "Organization": "schema:Organization",
+    "MemberFirm": "deloitte:MemberFirm",
+    "ServiceLine": "deloitte:ServiceLine",
+    "Practice": "deloitte:Practice",
+    "Industry": "schema:Industry",
+    "Sector": "deloitte:Sector",
+    "ResearchCenter": "deloitte:ResearchCenter",
+    "ResearchReport": "schema:Report",
+    "ReportSeries": "deloitte:ReportSeries",
+    "Webcast": "schema:BroadcastEvent",
+    "Alliance": "deloitte:Alliance",
+    "Accelerator": "deloitte:Accelerator",
+    "Person": "schema:Person",
+
+    "id": "@id",
+    "type": "@type",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "logo": "schema:logo",
+    "founded": {
+      "@id": "schema:foundingDate",
+      "@type": "xsd:date"
+    },
+    "headquarters": "schema:address",
+    "country": "schema:addressCountry",
+    "region": "deloitte:region",
+
+    "parentOrganization": "schema:parentOrganization",
+    "memberOf": "org:memberOf",
+    "subOrganization": "schema:subOrganization",
+    "hasUnit": "org:hasUnit",
+    "serviceLine": "deloitte:serviceLine",
+    "practice": "deloitte:practice",
+    "industry": "deloitte:industry",
+    "sector": "deloitte:sector",
+
+    "published": {
+      "@id": "schema:datePublished",
+      "@type": "xsd:date"
+    },
+    "author": "schema:author",
+    "publisher": "schema:publisher",
+    "topic": "schema:about",
+    "series": "deloitte:series",
+    "researchCenter": "deloitte:researchCenter",
+    "reportType": "deloitte:reportType",
+    "audience": "schema:audience",
+
+    "alliancePartner": "deloitte:alliancePartner",
+    "technologyStack": "deloitte:technologyStack",
+    "accelerator": "deloitte:accelerator",
+
+    "broader": "skos:broader",
+    "narrower": "skos:narrower",
+    "related": "skos:related",
+    "prefLabel": "skos:prefLabel",
+    "altLabel": "skos:altLabel"
+  }
+}

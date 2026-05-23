@@ -1,0 +1,276 @@
+vocabulary:
+  name: Deloitte Vocabulary
+  description: >-
+    Domain vocabulary for Deloitte, the Big Four professional services
+    organization. Covers organizational structure (member firms, service
+    lines, practices), industry verticals and sectors served, the Deloitte
+    Insights research-publishing surface, Deloitte Digital's alliance and
+    accelerator portfolio, and key methodologies and frameworks Deloitte
+    deploys with clients. No public developer API surface exists at the
+    corporate level; this vocabulary models the institutional and research
+    surfaces.
+  version: '1.0'
+  created: '2026-05-23'
+  modified: '2026-05-23'
+
+organizational-concepts:
+  - term: DTTL
+    definition: >-
+      Deloitte Touche Tohmatsu Limited — the UK private company limited by
+      guarantee that coordinates the global network of legally separate and
+      independent member firms operating under the Deloitte brand.
+    aliases:
+      - Deloitte Global
+    related:
+      - Member Firm
+      - Network
+
+  - term: Member Firm
+    definition: >-
+      A legally separate and independent legal entity that is part of the
+      DTTL network and provides services to clients under the Deloitte
+      brand. Each member firm is liable only for its own acts and omissions.
+    related:
+      - DTTL
+      - Network
+
+  - term: Service Line
+    definition: >-
+      One of Deloitte's four primary delivery surfaces — Audit & Assurance,
+      Consulting, Tax, or Legal — under which client work is organized,
+      staffed, and reported.
+    related:
+      - Practice
+      - Industry
+
+  - term: Practice
+    definition: >-
+      A subject-matter capability inside a service line (for example, Cyber
+      inside Consulting, Indirect Tax inside Tax, IT Data & Analytics
+      inside Audit & Assurance).
+    related:
+      - Service Line
+      - Engagement
+
+  - term: Industry
+    definition: >-
+      A vertical market Deloitte serves. The organization is structured
+      around six industries — Consumer; Energy, Resources & Industrials;
+      Financial Services; Government & Public Services; Life Sciences &
+      Health Care; and Technology, Media & Telecommunications — divided
+      into twenty sectors.
+    related:
+      - Sector
+      - Service Line
+
+  - term: Sector
+    definition: >-
+      A specialized slice of an industry (for example, Banking & Capital
+      Markets inside Financial Services, or Semiconductor inside
+      Technology, Media & Telecommunications).
+    related:
+      - Industry
+
+service-lines:
+  - term: Audit & Assurance
+    definition: >-
+      Deloitte's audit and assurance service line covering financial-statement
+      audit, broader assurance services, and IT Data & Analytics assurance.
+    related:
+      - Service Line
+
+  - term: Consulting
+    definition: >-
+      Deloitte's management and technology consulting service line, spanning
+      Customer; Cyber; Engineering, AI & Data; Enterprise Technology &
+      Performance; Finance Transformation; Human Capital; Strategy &
+      Transactions; and Risk, Regulatory & Forensic.
+    related:
+      - Service Line
+      - Deloitte Digital
+
+  - term: Tax
+    definition: >-
+      Deloitte's tax service line, including Business Tax, Indirect Tax,
+      International Tax, M&A Tax, Tax Technology Consulting, and Transfer
+      Pricing.
+    related:
+      - Service Line
+
+  - term: Legal
+    definition: >-
+      Deloitte's legal service line, including Contracts; Intangibles, Data
+      & Technology; Legal Function Transformation; Legal Advisory; M&A and
+      Corporate Law; and People Law.
+    related:
+      - Service Line
+
+practices-and-brands:
+  - term: Deloitte Digital
+    definition: >-
+      Deloitte's customer-and-experience practice, combining strategy,
+      creativity, technology, and managed services to transform customer
+      experiences. Maintains alliances with major enterprise platforms and
+      ships proprietary accelerators.
+    related:
+      - Alliance Partner
+      - Accelerator
+
+  - term: Deloitte AI Institute
+    definition: >-
+      The applied-AI research and points-of-view program inside Deloitte
+      Consulting, producing thought leadership on generative AI, agentic
+      systems, governance, and enterprise adoption patterns.
+    related:
+      - Engineering, AI & Data
+      - Deloitte Insights
+
+  - term: Deloitte Insights
+    definition: >-
+      Deloitte's research-publishing surface that delivers proprietary
+      research designed to help organizations turn aspirations into action.
+      Organized across eight research centers and dozens of flagship report
+      series.
+    related:
+      - Research Center
+      - Report Series
+      - MyDeloitte
+
+  - term: Deloitte Private
+    definition: >-
+      The cross-service-line practice serving privately held businesses,
+      family enterprises, and private-equity portfolio companies.
+    related:
+      - Service Line
+
+  - term: Global Employer Services
+    definition: >-
+      Specialized practice handling globally mobile workforces, expatriate
+      tax, and cross-border HR compliance.
+    related:
+      - Tax
+      - Human Capital
+
+research-surface:
+  - term: Research Center
+    definition: >-
+      One of the eight thematic research centers inside Deloitte Insights —
+      Cross-Industry, Economics, Consumer, Energy & Industrials, Financial
+      Services, Government & Public Services, Life Sciences & Health Care,
+      and Tech, Media & Telecom — that owns and publishes recurring
+      research series.
+    related:
+      - Deloitte Insights
+      - Report Series
+
+  - term: Report Series
+    definition: >-
+      A recurring branded publication produced by a research center on a
+      regular cadence. Examples include Tech Trends, Global Human Capital
+      Trends, Digital Media Trends, TMT Predictions, FSI Predictions, and
+      the Weekly Global Economic Outlook.
+    related:
+      - Research Center
+      - Industry Outlook
+
+  - term: Tech Trends
+    definition: >-
+      Deloitte's flagship annual technology-foresight report from the Tech,
+      Media & Telecom research center, identifying enterprise technology
+      trends shaping the next 18-24 months.
+    related:
+      - Report Series
+
+  - term: Global Human Capital Trends
+    definition: >-
+      Deloitte's annual workforce and HR research report, drawing on a
+      large global survey of executives and people leaders.
+    related:
+      - Report Series
+      - Human Capital
+
+  - term: Industry Outlook
+    definition: >-
+      The annual cross-sector forward-look series in which each industry
+      and sector publishes its outlook for the coming year.
+    related:
+      - Report Series
+      - Industry
+
+  - term: Dbriefs
+    definition: >-
+      Deloitte's live webcast program offering professional-development
+      content with CPE credit opportunities for accounting, tax, and
+      finance audiences.
+    related:
+      - Webcast
+      - MyDeloitte
+
+  - term: MyDeloitte
+    definition: >-
+      The personalization-and-distribution platform through which readers
+      manage newsletter subscriptions, save research, and receive
+      personalized Insights content.
+    related:
+      - Deloitte Insights
+      - Newsletter
+
+  - term: Deloitte Insights Magazine
+    definition: >-
+      Issue-based magazine compiling Deloitte Insights research into a
+      curated reading format.
+    related:
+      - Deloitte Insights
+
+digital-alliances-and-accelerators:
+  - term: Alliance Partner
+    definition: >-
+      A strategic technology partner with whom Deloitte Digital co-delivers
+      implementation, integration, and managed-service offerings. Includes
+      Salesforce, Adobe, SAP, Google Cloud, AWS, ServiceNow, Oracle,
+      Shopify, Sitecore, and Genesys.
+    related:
+      - Deloitte Digital
+      - Accelerator
+
+  - term: Accelerator
+    definition: >-
+      A proprietary Deloitte Digital asset that compresses delivery time
+      for a common workload pattern. Examples include FrontOffice
+      Advantage, Revenue Advantage, Agentic Marketing Cloud, CreativEdge,
+      Blueprint, Content Studios, and TrustID.
+    related:
+      - Deloitte Digital
+      - Alliance Partner
+
+  - term: FrontOffice Advantage
+    definition: >-
+      Deloitte Digital's accelerator for customer-facing front-office
+      transformation across sales, service, and marketing.
+    related:
+      - Accelerator
+
+  - term: TrustID
+    definition: >-
+      Deloitte's trust-measurement framework used to quantify stakeholder
+      trust in brands and institutions.
+    related:
+      - Accelerator
+
+distribution-and-engagement:
+  - term: Press Room
+    definition: >-
+      Deloitte Global's media-relations surface listing press contacts and
+      official statements. No public RSS endpoint or developer-consumable
+      press feed has been identified at the corporate level.
+    related:
+      - Newsletter
+
+  - term: Open Source Initiatives
+    definition: >-
+      Deloitte's modest GitHub presence under the "Deloitte US Consulting"
+      organization, hosting a handful of repositories — most notably
+      `beacon`, a TypeScript library for first-party web analytics
+      packaging — alongside archived upstream forks.
+    related:
+      - GitHub Organization

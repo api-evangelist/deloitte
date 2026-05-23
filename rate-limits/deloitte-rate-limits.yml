@@ -1,0 +1,39 @@
+specification: API Commons Rate Limits
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/RateLimits
+provider: Deloitte
+providerId: deloitte
+created: '2026-05-23'
+modified: '2026-05-23'
+reconciled: false
+tags:
+  - Consulting
+  - Professional Services
+  - Big Four
+  - Rate Limiting
+description: >-
+  Deloitte does not publish a public developer API, so no public rate
+  limits exist. Throughput and SLAs on any Deloitte-built API (within a
+  client engagement, a managed-services arrangement, or a Deloitte
+  Digital accelerator deployment) are negotiated bilaterally and owned by
+  the client or the engagement contract.
+notes: No public developer API — placeholder only.
+sources:
+  - https://www.deloitte.com/
+responseCodes:
+  throttled: 429
+limits:
+  - name: No public rate limits
+    scope: account
+    metric: not_applicable
+    limit: not applicable
+policies:
+  - name: Engagement-defined
+    description: >-
+      Throughput, concurrency, and SLAs on any Deloitte-built API are
+      defined inside the client engagement contract or the relevant
+      managed-services agreement, not by a public developer-portal
+      policy.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

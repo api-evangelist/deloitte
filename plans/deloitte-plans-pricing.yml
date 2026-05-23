@@ -1,0 +1,94 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/Plans
+provider: Deloitte
+providerId: deloitte
+created: '2026-05-23'
+modified: '2026-05-23'
+reconciled: false
+tags:
+  - Consulting
+  - Audit
+  - Tax
+  - Legal
+  - Professional Services
+  - Big Four
+description: >-
+  Deloitte is a Big Four professional services organization. It does not
+  publish a public developer API or developer portal at the corporate level;
+  commercial engagements are priced as audit, tax, legal, consulting,
+  managed-services, or specialized-services contracts negotiated bilaterally
+  through member firms. Any APIs Deloitte builds are client- or
+  partner-branded and live outside a Deloitte developer surface. Research
+  outputs (Deloitte Insights, Tech Trends, Global Human Capital Trends,
+  AI Institute publications, Dbriefs webcasts) are made available free of
+  charge through MyDeloitte and the Insights website.
+notes: >-
+  No public developer API — placeholder only. Pricing is engagement-based
+  and not consumable through an API plan. The free research surface is
+  documented as a separate plan tier purely for inventory purposes.
+sources:
+  - https://www.deloitte.com/
+  - https://www.deloitte.com/global/en/services.html
+  - https://www.deloitte.com/us/en/insights.html
+plans:
+  - id: deloitte-engagement
+    name: Member-Firm Professional Services Engagement
+    type: enterprise
+    description: >-
+      Deloitte sells audit, tax, legal, consulting, and managed-services
+      work through bilateral engagement contracts negotiated with the
+      relevant member firm. There is no public API plan; pricing is set
+      per engagement on a time-and-materials, fixed-fee, or
+      managed-services-subscription basis.
+    entries:
+      - label: Engagement contract
+        name: engagement_contract
+        type: subscription
+        metric: contract
+        limit: -1
+        timeFrame: year
+        geo: global
+        unit: 1
+        price: contact Deloitte member firm account team
+        userMultiplied: false
+    elements:
+      - name: Audit & Assurance engagements
+      - name: Tax engagements
+      - name: Legal engagements
+      - name: Consulting engagements
+      - name: Managed-services engagements
+      - name: Deloitte Private engagements
+      - name: Global Employer Services engagements
+      - name: No public developer API
+
+  - id: deloitte-insights
+    name: Deloitte Insights Research Access
+    type: free
+    description: >-
+      Free reader access to Deloitte Insights research, including Tech
+      Trends, Global Human Capital Trends, Digital Media Trends, TMT
+      Predictions, FSI Predictions, the Weekly Global Economic Outlook,
+      Industry Outlooks, and AI Institute publications. Personalization
+      and newsletter subscriptions are available through MyDeloitte.
+      Dbriefs webcasts are free to attend and can offer CPE credit.
+    entries:
+      - label: Public research access
+        name: insights_access
+        type: free
+        metric: report
+        limit: -1
+        timeFrame: month
+        geo: global
+        unit: 1
+        price: 0
+        userMultiplied: false
+    elements:
+      - name: Deloitte Insights articles and reports
+      - name: MyDeloitte personalization and newsletters
+      - name: Dbriefs live webcasts
+      - name: Deloitte Insights Magazine
+      - name: Deloitte Insights YouTube channel
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

@@ -1,0 +1,83 @@
+specification: FinOps Framework
+specificationVersion: '1.0'
+schema: https://www.finops.org/framework/
+provider: Deloitte
+providerId: deloitte
+created: '2026-05-23'
+modified: '2026-05-23'
+reconciled: false
+tags:
+  - Consulting
+  - Professional Services
+  - Big Four
+  - FinOps
+  - FOCUS
+description: >-
+  Deloitte has no public developer API and no metered billing surface.
+  Costs flow through audit, tax, legal, consulting, or managed-services
+  engagement contracts and appear on client books as professional-services
+  spend, not as a metered API invoice. Deloitte itself runs FinOps and
+  cloud financial-management practices for clients on hyperscaler spend,
+  but does not consume FinOps for its own corporate offerings.
+notes: >-
+  No public developer API — placeholder only. Deloitte's FinOps practice
+  is an advisory offering, not a billed Deloitte API product.
+sources:
+  - https://www.deloitte.com/
+  - https://www.deloitte.com/global/en/services.html
+alignedWith:
+  framework: FinOps Foundation Framework
+  frameworkUrl: https://www.finops.org/framework/
+  dataSpec: FOCUS
+  dataSpecVersion: '1.3'
+  dataSpecUrl: https://focus.finops.org/focus-specification/v1-3/
+publisherName: Deloitte Touche Tohmatsu Limited
+serviceCategory: Professional Services
+billingModel:
+  pricingCategory: Contract
+  billingFrequency: Per-Invoice
+  billingCurrency: USD
+  chargeCategories:
+    - Purchase
+focusColumns:
+  ServiceName: Deloitte Engagement
+  ServiceCategory: Professional Services
+  ProviderName: Deloitte
+  PublisherName: Deloitte Touche Tohmatsu Limited
+  InvoiceIssuerName: Deloitte Member Firm
+  BillingCurrency: USD
+meters:
+  - name: engagement_contract
+    description: >-
+      Master engagement contract — not a metered unit; costs flow through
+      time-and-materials, fixed-fee, or managed-services-subscription
+      invoicing from the relevant Deloitte member firm.
+    unit: contract
+    aggregation: count
+    dimensions:
+      - client
+      - member_firm
+      - service_line
+principles:
+  - name: Visibility
+    description: >-
+      Track Deloitte cost as professional-services spend on the client
+      GL, not as a metered API line.
+  - name: Allocation
+    description: >-
+      Allocate engagement cost to the sponsoring business unit;
+      pass-through hyperscaler costs incurred during a Deloitte
+      managed-services arrangement should be allocated through the
+      underlying cloud bill rather than the Deloitte invoice.
+  - name: Optimization
+    description: >-
+      Optimize by aligning engagement scope with the FinOps practices
+      Deloitte itself promotes to clients for hyperscaler workloads,
+      ensuring scope-creep does not erode engagement value.
+  - name: Accountability
+    description: >-
+      Engagement sponsor on the client side and the Deloitte engagement
+      partner share accountability for cost and value delivered.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
