@@ -37,7 +37,7 @@ description: >-
   and the YouTube channel; no public RSS index page was discoverable on
   www.deloitte.com at the path published in legacy archives.
 kind: company
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Consulting
   - Audit
