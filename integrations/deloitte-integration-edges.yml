@@ -1,0 +1,78 @@
+generated: '2026-10-13'
+method: searched
+checked:
+- https://aws.amazon.com/marketplace/
+marketplace_apps: []
+edges:
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=seller-qkumbjysee36y
+  listing_count: 2
+  apps:
+  - Deloitte Consulting (USA) - Cloud Managed Services
+  - AI Accelerator Framework for Service
+  seller_name: Deloitte Consulting LLP
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=seller-erc3j5e35cunc
+  listing_count: 23
+  apps:
+  - AIOPS.D
+  - innoWake transformation
+  - Converge BankingSuite
+  - SimplrOps
+  - 'Navigator: Digital Adoption Platform'
+  seller_name: Deloitte Consulting (US)
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=seller-jp6eoggepz7k4
+  listing_count: 4
+  apps:
+  - Deloitte IL - ServiceNow Operational Workflows
+  - Deloitte IL - ServiceNow Technology Workflows
+  - Deloitte IL - ServiceNow Customer Workflows
+  - Deloitte IL - ServiceNow Employee Workflows
+  seller_name: Deloitte
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=seller-f2eqb3ag6z2hc
+  listing_count: 5
+  apps:
+  - 'DocuEdge for Public Sector: Effective and Secure Document Management'
+  - 'HealthInteractive for Public Sector: Systems Integration Platform'
+  - 'Pallium for Public Sector: Advanced Fraud Detection & Program Integrity'
+  - 'HealthTranslate for Public Sector: Medicaid Encounter Data Processing'
+  - 'SecureRelease for Public Sector: Government Records Management Platform'
+  seller_name: Deloitte Consulting GPS
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
