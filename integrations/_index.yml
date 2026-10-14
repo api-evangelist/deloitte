@@ -15,3 +15,41 @@
   relationship: distribution-channel
   status: not-a-workflow
   arazzo: null
+- slug: deloitte-geotab-own
+  label: Geotab (own)
+  partner: geotab
+  partner_name: Geotab (own)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://marketplace.geotab.com/partner/deloitte/
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: deloitte-guidewire-own
+  label: Guidewire (own)
+  partner: guidewire
+  partner_name: Guidewire (own)
+  category: Extensions; PolicyCenter;Product Models (APD)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://marketplace.guidewire.com/product/01tPW00000AAtqHYAT/01tPW00000AAtqHYAT
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: deloitte-workday-own
+  label: Workday (own)
+  partner: workday
+  partner_name: Workday (own)
+  category: Region & Country
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://marketplace.workday.com/apps/448702/insureacceleration
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
