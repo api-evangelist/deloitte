@@ -4,7 +4,10 @@ checked:
 - geotab/integrations/geotab-integration-edges.yml
 - guidewire/integrations/guidewire-integration-edges.yml
 - https://aws.amazon.com/marketplace/
+- https://kantarainitiative.org/trust-status-list/
+- https://msb.fincen.gov/
 - https://peppol.org/members/peppol-certified-service-providers/
+- https://www.access-dvs-register.service.gov.uk/register/download-register
 - https://www.impots.gouv.fr/je-consulte-la-liste-des-plateformes-agreees
 - https://www.streamlinedsalestax.org/certified-service-providers/certified-service-providers-list
 - workday/integrations/workday-integration-edges.yml
@@ -207,6 +210,40 @@ edges:
     detected_by: sweep-einvoicing-tax.py
     detected: '2026-10-15'
   detected_by: sweep-einvoicing-tax.py
+  first_seen: '2026-10-15'
+- partner_name: UK DVS register (DSIT)
+  partner: null
+  partner_match: register
+  type: register
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.access-dvs-register.service.gov.uk/register/service-details?serviceId=291
+  category: Digital identity verification
+  contract_reference:
+    register: UK digital verification services register (DIATF; access-dvs-register.service.gov.uk)
+    spec_file: null
+    standard: UK DIATF (digital verification services)
+    role: dvs-registered
+    registered_name: Deloitte LLP
+    trading_name: Deloitte LLP
+    register_id: Deloitte LLP
+    website: https://www.deloitte.com/uk/en/products/go-verify.html
+    matched_domain: deloitte.com
+    matched_by: domain
+    certified_products:
+    - product: Identity service
+      newest_expiry: '2029-07-22'
+      lapsed: false
+    dvs_services:
+    - Go Verify
+    conformity_assessment_bodies:
+    - Kantara
+    signal_note: certified_products = one entry per ROLE certified (identity / attribute / orchestration...), lapsed
+      when every certificate for the role has expired; services and schemes are context
+    detected_by: sweep-regtech-aml.py
+    detected: '2026-10-15'
+  detected_by: sweep-regtech-aml.py
   first_seen: '2026-10-15'
 source:
 - geotab/integrations/geotab-integration-edges.yml

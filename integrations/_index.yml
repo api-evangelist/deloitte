@@ -88,3 +88,37 @@
     detected: '2026-10-15'
   status: not-a-workflow
   arazzo: null
+- slug: deloitte-uk-dvs-register-dsit
+  label: UK DVS register (DSIT)
+  partner_name: UK DVS register (DSIT)
+  category: Digital identity verification
+  type: register
+  channel: regulator-register
+  evidence: https://www.access-dvs-register.service.gov.uk/register/service-details?serviceId=291
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: UK digital verification services register (DIATF; access-dvs-register.service.gov.uk)
+    spec_file: null
+    standard: UK DIATF (digital verification services)
+    role: dvs-registered
+    registered_name: Deloitte LLP
+    trading_name: Deloitte LLP
+    register_id: Deloitte LLP
+    website: https://www.deloitte.com/uk/en/products/go-verify.html
+    matched_domain: deloitte.com
+    matched_by: domain
+    certified_products:
+    - product: Identity service
+      newest_expiry: '2029-07-22'
+      lapsed: false
+    dvs_services:
+    - Go Verify
+    conformity_assessment_bodies:
+    - Kantara
+    signal_note: certified_products = one entry per ROLE certified (identity / attribute / orchestration...), lapsed
+      when every certificate for the role has expired; services and schemes are context
+    detected_by: sweep-regtech-aml.py
+    detected: '2026-10-15'
+  status: not-a-workflow
+  arazzo: null
