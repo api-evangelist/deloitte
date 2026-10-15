@@ -4,10 +4,13 @@ checked:
 - geotab/integrations/geotab-integration-edges.yml
 - guidewire/integrations/guidewire-integration-edges.yml
 - https://aws.amazon.com/marketplace/
+- https://govramp.org/program-participants
 - https://kantarainitiative.org/trust-status-list/
 - https://msb.fincen.gov/
 - https://peppol.org/members/peppol-certified-service-providers/
+- https://raw.githubusercontent.com/18F/fedramp-data/4b73d9247fd6360759960e4690e3ce4ca858e0fa/data/data.json
 - https://www.access-dvs-register.service.gov.uk/register/download-register
+- https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud-15/suppliers
 - https://www.impots.gouv.fr/je-consulte-la-liste-des-plateformes-agreees
 - https://www.streamlinedsalestax.org/certified-service-providers/certified-service-providers-list
 - workday/integrations/workday-integration-edges.yml
@@ -244,6 +247,49 @@ edges:
     detected_by: sweep-regtech-aml.py
     detected: '2026-10-15'
   detected_by: sweep-regtech-aml.py
+  first_seen: '2026-10-15'
+- partner_name: FedRAMP
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://marketplace.fedramp.gov/products/F1210161615
+  category: FedRAMP authorization
+  contract_reference:
+    register: FedRAMP Marketplace data (github.com/18F/fedramp-data data/data.json @4b73d9247f)
+    standard: FedRAMP
+    spec_file: null
+    role: fedramp-authorized
+    registered_name: Deloitte
+    register_id: F1210161615
+    matched_domain: deloitte.com
+    matched_by: domain
+    domain_source: website
+    designations:
+    - Compliant
+    - FedRAMP Ready
+    packages:
+    - Digital Contact Center (D2C2)
+    - Evidence Management System (EMS)
+    service_models:
+    - PaaS
+    - SaaS
+    paths:
+    - Agency
+    - JAB
+    signal_note: certified_products = one entry per AUTHORIZED impact level, never per package; packages, service
+      models, paths and leveraging agencies are context, never counted. The register lists current designations
+      only (revoked / expired are removed), so lapsed is always false
+    detected_by: sweep-gov-cloud.py
+    detected: '2026-10-15'
+    certified_products:
+    - product: FedRAMP Moderate
+      impact_level: Moderate
+      lapsed: false
+      latest_authorization: '2022-01-20'
+  detected_by: sweep-gov-cloud.py
   first_seen: '2026-10-15'
 source:
 - geotab/integrations/geotab-integration-edges.yml
