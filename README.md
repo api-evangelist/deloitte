@@ -1,4 +1,4 @@
-# Deloitte (deloitte)
+# Deloitte
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,112 +64,112 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Deloitte is one of the Big Four professional services organizations, operating through a network of legally separate and independent member firms coordinated by Deloitte Touche Tohmatsu Limited (DTTL). The organization spans approximately 150 countries and territories, has more than 180 years of history (founded 1845), and serves roughly 90% of the Fortune Global 500. Deloitte delivers across four service lines — Audit & Assurance, Consulting, Tax, and Legal — plus specialized cross-functional practices including Business Process Solutions, Global Employer Services, and Deloitte Private. Deloitte does not publish a public developer API or corporate developer portal; the surface profiled here covers the institutional, research-publishing, and digital-practice footprints.
+Deloitte is one of the Big Four professional services organizations, operating through a network of member firms coordinated by Deloitte Touche Tohmatsu Limited (DTTL). The organization spans approximately 150 countries and territories, has more than 180 years of history (founded 1845), and serves roughly 90% of the Fortune Global 500. Deloitte organizes delivery across four primary service lines — Audit & Assurance, Consulting, Tax, and Legal — plus specialized cross-functional practices including Business Process Solutions and Global Employer Services. Consulting offerings cover Customer, Cyber, Engineering / AI & Data, Enterprise Technology & Performance, Finance Transformation, Human Capital, Strategy & Transactions, and Risk / Regulatory & Forensic. Deloitte Digital is the technology-and-experience practice with alliances spanning Salesforce, Adobe, SAP, Google Cloud, AWS, ServiceNow, Oracle, Shopify, Sitecore, and Genesys, and accelerators such as FrontOffice Advantage, Revenue Advantage, Agentic Marketing Cloud, CreativEdge, Blueprint, Content Studios, and TrustID. The organization serves six industries divided into twenty sectors: Consumer; Energy, Resources & Industrials; Financial Services; Government & Public Services; Life Sciences & Health Care; and Technology, Media & Telecommunications. Deloitte Insights is the organization's research-publishing surface, organized into eight research centers — Cross-Industry, Economics, Consumer, Energy & Industrials, Financial Services, Government & Public Services, Life Sciences & Health Care, and Tech, Media & Telecom — producing flagship series including Tech Trends, Global Human Capital Trends, Digital Media Trends, TMT Predictions, FSI Predictions, the Weekly Global Economic Outlook, and the annual Industry Outlooks. The Deloitte AI Institute drives applied-AI research and points of view. Deloitte does not publish a public developer API or open developer portal at the corporate level. The Deloitte US Consulting GitHub organization is small (5 visible repositories, mostly archived upstream forks; the original artifact is `beacon`, a first-party web-analytics packaging library in TypeScript). Reader-facing distribution flows through MyDeloitte (personalized content + newsletter subscriptions), Dbriefs (live webcasts with CPE credit), the Deloitte Insights Magazine, and the YouTube channel; no public RSS index page was discoverable on www.deloitte.com at the path published in legacy archives.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/deloitte/refs/heads/main/apis.yml)
+**Areas:** Consulting · Audit · Tax · Legal · Professional Services · Big Four · Risk Management · Advisory · Cybersecurity · Human Capital · Strategy · Technology
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=deloitte-api-evangelist&utm_content=repo)
+## Deloitte on APIs.io
 
-## Tags
+Everything profiled for Deloitte is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/deloitte/](https://apis.io/providers/deloitte/)** — or go straight to one of the APIs or properties below.
 
-Consulting, Audit, Tax, Legal, Professional Services, Big Four, Risk, Advisory, Cybersecurity, Human Capital, Strategy, Technology, AI, Research, Insights, Industry Analysis, Sustainability, ESG
+### Published properties
 
-## Timestamps
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Created:** 2026-05-23
-- **Modified:** 2026-05-23
+#### JSON-LD (1)
 
-## APIs
+Linked-data contexts for the provider's vocabulary.
 
-No public developer APIs are published at the corporate level. Deloitte builds client- and partner-specific APIs as part of engagements; the resulting APIs live with each client or partner, not on a Deloitte-branded developer surface. The Deloitte US Consulting GitHub organization (`github.com/Deloitte`) hosts a small set of repositories — most notably `beacon`, a TypeScript library for first-party web-analytics packaging — alongside archived upstream forks (WildFly, Apache Superset, github-ospo-test).
+- [Deloitte Context](https://apis.io/jsonld/deloitte/deloitte-context/)
 
-## Service Lines
+#### Vocabulary (1)
 
-| Service Line | Practices |
-|---|---|
-| Audit & Assurance | Audit, Assurance, IT Data & Analytics |
-| Consulting | Customer; Cyber; Engineering, AI & Data; Enterprise Technology & Performance; Finance Transformation; Human Capital; Strategy & Transactions; Risk, Regulatory & Forensic |
-| Tax | Business Tax, Indirect Tax, International Tax, M&A Tax, Tax Technology Consulting, Transfer Pricing |
-| Legal | Contracts; Intangibles, Data & Technology; Legal Function Transformation; Legal Advisory; M&A and Corporate Law; People Law |
-| Specialized | Business Process Solutions, Global Employer Services, Deloitte Private |
+The provider's domain terms, defined.
 
-## Industries Served
+- [Deloitte Vocabulary](https://apis.io/vocabularies/deloitte/deloitte-vocabulary/)
 
-| Industry | Sectors |
-|---|---|
-| Consumer | Automotive, Consumer Products, Retail, Transportation, Hospitality, Airlines & Aviation, Fashion & Luxury, Future of Food |
-| Energy, Resources & Industrials | Industrial Products & Construction, Mining & Metals, Energy & Chemicals, Power / Utilities / Renewables |
-| Financial Services | Banking & Capital Markets, Insurance, Investment Management & Private Equity, Real Estate |
-| Government & Public Services | Central Government, Defense / Security / Justice, Health & Human Services, Infrastructure / Transport / Regional Government |
-| Life Sciences & Health Care | Health Care, Life Sciences |
-| Technology, Media & Telecommunications | Technology, Telecom / Media / Entertainment, Sports, Semiconductor |
+#### Security (1)
 
-## Deloitte Digital
+Authentication, trust centre, and vulnerability disclosure.
 
-Deloitte Digital is the customer-and-experience practice, with strategic alliances spanning **Salesforce, Adobe, SAP, Google Cloud, AWS, ServiceNow, Oracle, Shopify, Sitecore, and Genesys**. Proprietary accelerators include:
+- [Deloitte Domain Security](https://apis.io/security/deloitte/deloitte-domain-security/)
 
-| Accelerator | Description |
-|---|---|
-| FrontOffice Advantage | End-to-end customer front-office transformation accelerator. |
-| Revenue Advantage | Revenue-operations and growth acceleration package. |
-| Agentic Marketing Cloud | Agent-driven marketing operations built on Salesforce Marketing Cloud Next. |
-| CreativEdge | AI-assisted content production at scale. |
-| Blueprint | Rapid-launch digital product delivery accelerator. |
-| Content Studios | AI-enabled content production and operations. |
-| TrustID | Trust-measurement framework for brands and institutions. |
+#### Plans and pricing (1)
 
-## Deloitte Insights (Research Surface)
+Published plans, tiers and prices.
 
-Deloitte Insights is the organization's research-publishing program, organized across **eight research centers** and dozens of flagship report series.
+- [Deloitte Plans Pricing](https://apis.io/plans/deloitte/deloitte-plans-pricing/)
 
-**Research centers:** Cross-Industry (Center for Integrated Research), Economics (Global Economics Research Center), Consumer, Energy & Industrials, Financial Services, Government & Public Services, Life Sciences & Health Care, Tech / Media & Telecom.
+#### Rate limits (1)
 
-**Flagship series:**
+Published request limits.
 
-| Series | Description |
-|---|---|
-| Tech Trends | Annual enterprise-technology foresight report. |
-| Global Human Capital Trends | Annual workforce / HR research drawing on a global executive survey. |
-| Digital Media Trends | Recurring consumer media-consumption research. |
-| TMT Predictions | Annual Technology, Media & Telecom predictions. |
-| FSI Predictions | Annual Financial Services Industry predictions. |
-| Weekly Global Economic Outlook | Weekly macro-economic commentary from the Global Economics Research Center. |
-| Industry Outlooks | Annual cross-sector forward-looks. |
-| Deloitte AI Institute publications | Applied-AI research and points of view from the Deloitte AI Institute. |
+- [Deloitte Rate Limits](https://apis.io/rate-limits/deloitte/deloitte-rate-limits/)
 
-**Distribution surfaces:** Deloitte Insights website, **MyDeloitte** (personalization + newsletters), **Dbriefs** (live webcasts with CPE credit), **Deloitte Insights Magazine** (issue-based publication), and the **Deloitte Insights YouTube channel**. No corporate-level public RSS index was discoverable at the legacy `/legal/rss.html` path.
+#### FinOps (1)
 
-## Common Properties
+What the API costs to run, by operation.
+
+- [Deloitte Finops](https://apis.io/finops/deloitte/deloitte-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.deloitte.com/)
-- [About](https://www.deloitte.com/global/en/about.html)
-- [Services](https://www.deloitte.com/global/en/services.html)
-- [Industries](https://www.deloitte.com/global/en/industries.html)
-- [Deloitte Insights](https://www.deloitte.com/us/en/insights.html)
-- [Deloitte Digital](https://www.deloittedigital.com/)
-- [Deloitte AI Institute](https://www.deloitte.com/us/en/services/consulting/research/ai-institute.html)
-- [MyDeloitte](https://my.deloitte.com/)
-- [Dbriefs Webcasts](https://www.deloitte.com/us/en/about/people/alliances/dbriefs-webcasts.html)
-- [Deloitte Insights YouTube](https://www.youtube.com/@DeloitteInsights)
-- [LinkedIn](https://www.linkedin.com/company/deloitte)
-- [X / Twitter](https://x.com/Deloitte)
-- [GitHub Organization (Deloitte US Consulting)](https://github.com/Deloitte)
-- [`beacon` (first-party web analytics)](https://github.com/Deloitte/beacon)
-- [Global Impact / Sustainability](https://www.deloitte.com/global/en/about/impact.html)
-- [Legal](https://www.deloitte.com/global/en/legal.html)
-- [Privacy](https://www.deloitte.com/global/en/legal/privacy.html)
-- [Press Room](https://www.deloitte.com/global/en/about/press-room.html)
+- [Compliance](https://www.deloitte.com/global/en/about/impact.html)
+- [Privacy policy](https://www.deloitte.com/global/en/legal/privacy.html)
+- [GitHub](https://github.com/Deloitte)
 
-## Generated Artifacts
+## API Evangelist rating
 
-- [JSON-LD context](json-ld/deloitte-context.jsonld)
-- [Vocabulary](vocabulary/deloitte-vocabulary.yml)
-- [Plans (placeholder)](plans/deloitte-plans-pricing.yml)
-- [Rate limits (placeholder)](rate-limits/deloitte-rate-limits.yml)
-- [FinOps (placeholder)](finops/deloitte-finops.yml)
+**Kin Score 19.6** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Maintainers
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 10.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 23.7 |
 
-**FN:** Kin Lane
+**Agent readiness 0.6** — human-only
 
-**Email:** kin@apievangelist.com
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/deloitte/](https://apis.io/providers/deloitte/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Deloitte: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/deloitte/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
